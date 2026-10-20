@@ -8,7 +8,7 @@ print(porcentagem(100, 0.5))
 # Função para mostrar as compras
 def mostrar(compras):
     for i, j in enumerate(compras, 1): 
-        
+
         # O enumerate deixa automáticamente um desempacotamento automático nessa ordem: 1 variável = pega o índice. 2 variável = pega o item. Ou seja, quando escrevemos "enumerate()", estamos chamando: "posição, item"
 
         # Em outras palavras, esse código está falando: para cada parâmetro (valor que o usuário escreve), será *enumerado*, ou, organizado em ordem crescente estes, começando no parâmetro 1, ou seja, vai ir aumentando para cada valor (parâmetro) que tiver
@@ -29,3 +29,4 @@ if lista:
     mostrar(lista) # Essa função mostra a lista não só por causa do "for" dentro de compras (no final, compras se torna a "lista" que o usuário escreveu), mas também, graças ao "enumerate", já é organizado em ordem crescente cada objeto da lista. O for, é para cada valor i, vai ser lido compras (ou lista)
 else:
     print("Sua lista não foi preenchida")
+
