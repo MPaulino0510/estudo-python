@@ -22,9 +22,9 @@ while tentativas <= 10:
 print("Fim de tentativas")
 
 
-while True:
+while True: # Enquanto for verdadeiro...
     resposta = input("Digite 'sair' para encerrar o programa: ")
-    if resposta.lower() == "sair":
+    if resposta.lower() == "sair": # O "lower()" serve para pegar a resposta do usuário e transformar para letras minúsculas
         print("Saindo...")
-        break
+        break # Acaba aqui o código
     print(f"Você digitou {resposta}")
