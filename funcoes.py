@@ -31,3 +31,4 @@ def operacoes (a, b):
         print("Opção inválida")
 total = operacoes(numero1, numero2)
 print(f"O resultado dessa operação é: {total}")
+
