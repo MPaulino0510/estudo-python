@@ -12,7 +12,7 @@ tabela = pd.DataFrame(dados) # Transformamos as informações dos "dados" para "
 entradaDadosNotas = tabela['Notas'] # Matriz. Como só possuem um colchetes ([]), são unidimensionais, ou seja, podem ser acessados com base no índice (resumindo, um array simples, linhas)
 entradaDadosHoras = tabela[['HorasEstudo']] # Vetor. Como possuem dois colchetes ([[]]), bidimensional, portanto, é necessário duas informações para acessar os dados
 
-modelo = LinearRegression()
+modelo = LinearRegression() # Serve para definir em variável o método
 modelo.fit(entradaDadosHoras, entradaDadosNotas) # ".fit", serve literalmente para efetuar o treinamento da IA, analisando  as duas informações
 
 # Predict:
